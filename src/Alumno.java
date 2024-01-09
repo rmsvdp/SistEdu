@@ -63,7 +63,14 @@ public class Alumno {
 		this.email = email;
 	}
 	
-	
+	public String toString() {
+		String str ="";
+		
+		str = this.apellidos + ", " + this.nombre + "\n";
+		str = str + this.dni + ", " + this.email+ "\n"; 
+		return str;
+		
+	}
 	
 	
 	

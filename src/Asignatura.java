@@ -37,7 +37,14 @@ public class Asignatura {
 	}
 
 	
-	
+	public String toString() {
+		String str ="";
+		
+		str = this.codigo + ", " + this.nombre + "\n";
+		
+		return str;
+		
+	}
 	
 	
 	
