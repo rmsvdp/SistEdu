@@ -53,6 +53,14 @@ public class Nota {
 		this.calif = calif;
 	}
 
-
+	public String toString() {
+		
+		String str;
+		
+		str = this.alum.toString()+ this.asig.toString();
+		str = str + this.curso + ", "+ this.eval + ", "+ this.getCalif();
+	
+		return str;
+	}
 
 }

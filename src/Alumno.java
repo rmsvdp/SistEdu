@@ -63,6 +63,7 @@ public class Alumno {
 		this.email = email;
 	}
 	
+
 	public String toString() {
 		String str ="";
 		
